@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ImMenu } from "react-icons/im";
+import { ImLeaf, ImMenu3 } from "react-icons/im";
 import { IoMdClose } from "react-icons/io";
 
 function Header() {
@@ -11,17 +11,20 @@ function Header() {
   };
 
   return (
-    <header className="flex items-center justify-center bg-red-50">
-      <div className="flex w-full max-w-xs justify-between py-4 md:max-w-3xl lg:max-w-5xl">
+    <header className="sticky inset-0 flex items-center justify-center lg:static">
+      <div className="flex w-full max-w-xs items-center justify-between py-4  md:max-w-3xl md:py-6 lg:max-w-5xl">
         <a
           href="#"
-          className="flex flex-row text-2xl font-black md:text-5xl lg:text-4xl"
+          className="flex flex-row items-center gap-1 text-2xl font-black md:text-4xl"
         >
-          <h2 className="text-green-500 ">Eco</h2>
-          <h2 className="text-neutral-700">Solutions</h2>
+          <div className="flex">
+            <h2 className="text-green-500 ">eco</h2>
+            <h2 className="text-neutral-700">Solutions</h2>
+          </div>
+          <ImLeaf className="size-4 text-green-500 md:size-6 lg:size-6" />
         </a>
         <nav className={`navbar ${MenuOpen ? "active" : ""}`}>
-          <ul className="flex flex-col items-end gap-6 lg:flex-row lg:gap-x-1">
+          <ul className="flex flex-col items-center gap-6 lg:flex-row lg:gap-x-1">
             <li className="lg:hodden absolute right-6 top-6 block">
               <button className="p-2 lg:hidden" onClick={toggleMenu}>
                 <IoMdClose className="size-6 md:size-12" />
@@ -84,12 +87,12 @@ function Header() {
           </ul>
         </nav>
         <button className="p-2 lg:hidden" onClick={toggleMenu}>
-          <ImMenu className="size-6 md:size-8" />
+          <ImMenu3 className="size-6 md:size-8" />
         </button>
       </div>
       {MenuOpen && (
         <div
-          className="fixed inset-0 z-40 bg-black bg-opacity-40 backdrop-blur-lg"
+          className="fixed inset-0 z-40 bg-black bg-opacity-40 backdrop-blur-md"
           onClick={toggleMenu}
         ></div>
       )}
