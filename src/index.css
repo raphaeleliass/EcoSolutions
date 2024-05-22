@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply font-Montserrat overflow-x-hidden;
+}
+
+.nav-links {
+  @apply px-2 py-1 text-2xl font-semibold md:text-4xl lg:px-2 lg:py-1 lg:text-lg;
+}
+
+.primary-button {
+  @apply items-center rounded-full bg-green-500 px-3 py-2 text-center font-bold text-white transition-all hover:bg-green-400 hover:shadow-xl md:text-2xl lg:text-xl;
+}
+
+.navbar {
+  @apply fixed right-0 top-0 flex min-h-screen w-2/3 translate-x-full items-center justify-center rounded-l-3xl bg-white transition-all md:w-1/2 lg:static  lg:min-h-fit lg:w-auto lg:translate-x-0 lg:bg-transparent;
+}
+
+.navbar.active {
+  @apply fixed right-0 top-0 z-50  flex min-h-screen w-2/3 translate-x-0 items-center justify-center rounded-l-3xl bg-white transition-all md:w-1/2  lg:static lg:min-h-fit lg:w-auto lg:translate-x-0 lg:bg-transparent;
+}
