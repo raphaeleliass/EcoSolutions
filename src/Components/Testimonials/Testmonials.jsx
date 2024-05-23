@@ -3,9 +3,9 @@ import TestimonialCard from "./TestimonialCard";
 
 function Testimonials() {
   return (
-    <section className="mx-auto mt-32  max-w-xs  md:max-w-3xl lg:max-w-5xl ">
-      <div className="flex justify-center">
-        <h2 className="text-4xl">Depoimentos</h2>
+    <section className="mx-auto mt-32 max-w-xs md:max-w-3xl lg:max-w-5xl ">
+      <div className="flex pb-6 justify-center">
+        <h2 className="text-4xl ">Depoimentos</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <FaQuoteLeft className="absolute -ml-2 mt-4 size-8" />

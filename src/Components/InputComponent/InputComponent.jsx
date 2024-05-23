@@ -12,11 +12,9 @@ function InputComponent({
       <input
         type={inputType}
         placeholder={placeholder}
-        className="rounded-lg border px-1 py-px placeholder:text-sm focus:border-4 focus:border-green-600 focus:outline-none"
+        className="rounded-full border bg-white px-2 py-2 placeholder:text-center placeholder:text-sm focus:border-4 focus:border-green-600 focus:outline-none"
       />
-      <p className={`font-Inter text-sm ${textClass}`}>
-        {inputText}
-      </p>
+      <p className={`font-Inter text-sm ${textClass}`}>{inputText}</p>
     </label>
   );
 }

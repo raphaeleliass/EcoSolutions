@@ -1,7 +1,7 @@
 function Sobre() {
   return (
     <section className="mx-auto  mt-32 flex w-full max-w-xs flex-col gap-4 md:max-w-3xl md:flex-row lg:max-w-5xl">
-      <div className="bg-Sobre h-56 rounded-xl bg-cover bg-center shadow-xl md:h-auto md:w-1/2"></div>
+      <div className="bg-About_Phone h-56 rounded-xl bg-cover bg-center shadow-xl md:h-auto md:w-1/2"></div>
       <div className="ml-auto flex flex-col gap-6 p-4 md:w-1/2">
         <h2 className="text-center text-4xl ">Nossa missão</h2>
         <p className="font-Inter text-sm text-neutral-600">
