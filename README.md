@@ -46,7 +46,7 @@
 
 The EcoSolutions project was developed with the aim of enhancing my learning with ReactJS and putting into practice what I have learned so far. Concepts of props and flexbox were used.
 
-> You can access the website by clicking [here](https://raphaelelias-barbershop.vercel.app)
+> You can access the website by clicking [here](https://raphaelelias-ecosolutions.vercel.app)
 
 <details>
 <summary>Screenshots</summary>
