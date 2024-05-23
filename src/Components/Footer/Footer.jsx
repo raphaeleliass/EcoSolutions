@@ -14,7 +14,7 @@ function Footer() {
         src="./mobile-preview.png"
         alt="imagem de um celular exibindo o site ecoSolutions"
       />
-      <div className="flex flex-col items-center justify-center gap-8 bg-red-50 md:mt-52 md:gap-10 md:pl-24 lg:gap-12">
+      <div className="flex flex-col items-center justify-center gap-8 md:mt-52 md:gap-10 md:pl-24 lg:gap-12">
         <h2 className="text-center text-2xl font-light md:text-3xl lg:text-5xl">
           Nos acompanhe nas redes!
         </h2>
