@@ -8,7 +8,8 @@ export default {
         Inter: ["Inter", "Sans-Serif", "Arial"],
       },
       backgroundImage:{
-        Hero: 'url("https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=600")'
+        Hero: 'url("https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=600")',
+        Sobre: 'url("https://images.pexels.com/photos/3850588/pexels-photo-3850588.jpeg?auto=compress&cs=tinysrgb&w=600")',
       }
     },
   },
